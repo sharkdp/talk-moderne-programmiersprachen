@@ -13,15 +13,15 @@
 		<style>
 .code-editor {
     font-family: 'Fira Mono', monospace;
-    font-size: 0.55em;
+    font-size: 0.44em;
     border: 1px solid #ddd;
-	width: 94.6%;
+	width: 93.7%;
 	margin : 0 auto;
 }
 
 .numbat-output {
     font-family: 'Fira Mono', monospace;
-    font-size: 0.55em;
+    font-size: 0.44em !important;
     border: 1px solid #ddd;
     margin-top: 0.5em;
     margin-bottom: 0;
@@ -111,27 +111,54 @@
 	<body>
 		<div class="reveal">
 <div class="slides">
+
 <section data-background-image="dist/title.svg" data-background-size="contain">
 </section>
-<!-- <section data-background-image="dist/pipeline.svg" data-background-size="contain"> -->
-<section>
-	<img src="dist/languages.svg" class="r-stretch">
+
+<section data-background-image="dist/buzzwords.svg" data-background-size="contain">
 </section>
-<section>
-	<img src="dist/pipeline.svg" class="r-stretch">
+
+<section data-background-image="dist/warum.svg" data-background-size="contain">
 </section>
+
 <section>
-<div id="editor1" class="code-editor">let pendulum_length: Length = 30 cm
-let t_oscillation: Time = 2 π sqrt(pendulum_length / g0)
+<div id="editor1" class="code-editor">let start = 1549874400 s
+let today = 1700672400 s
+let counter = (today - start) / days
+
+print("Open Intervall [ 0{counter // round}·10·00·00 ]")</div>
+<pre id="output1" class="numbat-output"></pre>
+</section>
+<!--
+
+-->
+<section>
+<div id="editor2" class="code-editor">3 months + 2 years</div>
+<pre id="output2" class="numbat-output"></pre>
+</section>
+
+<section>
+<div id="editor3" class="code-editor">let length = 30 cm
+let t_oscillation: Time = sqrt(length / g0)
 
 t_oscillation</div>
-<pre id="output1" class="numbat-output"></pre>
-
+<pre id="output3" class="numbat-output"></pre>
 </section>
 
 <section>
+<div id="editor4" class="code-editor">let distance_sun: Length = 1 AU  # astronomical unit
+let distance_moon: Length = 384_400 km
 
+let force_sun: Force = G * earth_mass * solar_mass / distance_sun
+let force_moon = G * earth_mass * lunar_mass / distance_moon
+
+force_sun / force_moon</div>
+<pre id="output4" class="numbat-output" style="min-height: 400px"></pre>
 </section>
+
+<section data-background-image="dist/pipeline.svg" data-background-size="contain">
+</section>
+
 </div>
 		</div>
 
@@ -150,6 +177,7 @@ t_oscillation</div>
 				minScale: 1,
 				maxScale: 1,
 			//disableLayout: false,
+                center: false,
 				controls: false,
 				controlsTutorial: false,
 				transition: 'slide',

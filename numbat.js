@@ -9,7 +9,7 @@ async function main() {
 
   setup_panic_hook();
 
-  const num_editors = 1;
+  const num_editors = 4;
   for (var i = 1; i <= num_editors; i++) {
     setupEditor(i);
   }
@@ -115,25 +115,22 @@ ace.define("ace/mode/numbat", function (require, exports, module) {
 });
 
 function getOutputId(id) {
-  return (id == 4 || id == 5) ? "output4and5" : "output" + id.toString();
+  return "output" + id.toString();
 }
 
 function getCode(id) {
-  if (id == 4 || id == 5) {
-    return ace.edit("editor4").getValue() + "\n" + ace.edit("editor5").getValue();
-  } else {
     return ace.edit("editor" + id.toString()).getValue();
-  }
 }
 
 function numbatEvaluate(id) {
   const code = getCode(id);
   const output_id = getOutputId(id);
-  const with_prelude = (id == 4 || id == 5) ? false : true;
+  const with_prelude = true;
 
   const result = interpret(code, with_prelude).replace(/\s*$/, "");
 
   document.getElementById(output_id).innerHTML = result;
+  Reveal.layout();
 }
 
 function debounce(func, wait, immediate) {
