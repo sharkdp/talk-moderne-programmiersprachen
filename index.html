@@ -17,6 +17,7 @@
     border: 1px solid #ddd;
 	width: 93.7%;
 	margin : 0 auto;
+    margin-top: 4em;
 }
 
 .numbat-output {
@@ -146,17 +147,20 @@ t_oscillation</div>
 </section>
 
 <section>
-<div id="editor4" class="code-editor">let distance_sun: Length = 1 AU  # astronomical unit
-let distance_moon: Length = 384_400 km
+<div id="editor4" class="code-editor">let distance_sun = 1 AU  # astronomical unit
+let distance_moon = 384_400 km
 
-let force_sun: Force = G * earth_mass * solar_mass / distance_sun
+let force_sun = G * earth_mass * solar_mass / distance_sun
 let force_moon = G * earth_mass * lunar_mass / distance_moon
 
 force_sun / force_moon</div>
-<pre id="output4" class="numbat-output" style="min-height: 400px"></pre>
+<pre id="output4" class="numbat-output"></pre>
 </section>
 
 <section data-background-image="dist/pipeline.svg" data-background-size="contain">
+</section>
+
+<section data-background-image="dist/syntax.svg" data-background-size="contain">
 </section>
 
 </div>
@@ -174,8 +178,8 @@ force_sun / force_moon</div>
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
-				minScale: 1,
-				maxScale: 1,
+				//minScale: 1,
+				//maxScale: 1,
 			//disableLayout: false,
                 center: false,
 				controls: false,
