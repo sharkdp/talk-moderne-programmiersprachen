@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 508 285.75"
+   version="1.1"
+   id="svg2931"
+   inkscape:version="1.3 (1:1.3+202307231459+0e150ed6c4)"
+   sodipodi:docname="typechecker.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2933"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="0.75087439"
+     inkscape:cx="1006.1603"
+     inkscape:cy="398.86831"
+     inkscape:window-width="2560"
+     inkscape:window-height="1395"
+     inkscape:window-x="1920"
+     inkscape:window-y="22"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="false">
+    <sodipodi:guide
+       position="27.483247,234.11992"
+       orientation="1,0"
+       id="guide11"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="179.0437,141.57936"
+       orientation="1,0"
+       id="guide12"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="127.55684,25.703177"
+       orientation="0,-1"
+       id="guide20"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="230.09563,20.41767"
+       orientation="0,-1"
+       id="guide7"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2928" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:46.0633px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Ultra-Bold';letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke:none;stroke-width:1.15158;stroke-opacity:1"
+       x="-266.85941"
+       y="60.580299"
+       id="text1"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Ultra-Bold';fill:#1a1a1a;stroke:none;stroke-width:1.15158;stroke-opacity:1"
+         x="-266.85941"
+         y="60.580299">Type</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Ultra-Bold';fill:#1a1a1a;stroke:none;stroke-width:1.15158;stroke-opacity:1"
+         x="-266.85941"
+         y="118.15942"
+         id="tspan6">checker</tspan></text>
+    <rect
+       style="fill:#e5ffd5;fill-opacity:1;stroke:none;stroke-width:0.593273;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect492"
+       width="201.84468"
+       height="26.434729"
+       x="230.67342"
+       y="58.196495"
+       ry="2.3215754" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.76553px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';letter-spacing:0px;word-spacing:0px;stroke-width:0.732414"
+       x="209.67929"
+       y="32.088116"
+       id="text150"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.76553px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.732414"
+         x="209.67929"
+         y="32.088116"
+         id="tspan108"><tspan
+   style="font-weight:bold;stroke-width:0.732414"
+   id="tspan106">DefineVariable </tspan>identifier=<tspan
+   style="fill:#00aa00;stroke-width:0.732414"
+   id="tspan107">&quot;length&quot;</tspan>, type=<tspan
+   style="fill:#5599ff;stroke-width:0.732414"
+   id="tspan200">Length</tspan></tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.76553px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.732414"
+         x="209.67929"
+         y="44.295033"
+         id="tspan110">  <tspan
+   style="font-weight:bold;stroke-width:0.732414"
+   id="tspan109">BinaryOperator </tspan>op=Mul, type=<tspan
+   style="fill:#5599ff;stroke-width:0.732414"
+   id="tspan201">Length</tspan></tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.76553px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.732414"
+         x="209.67929"
+         y="56.501953"
+         id="tspan113">    <tspan
+   style="font-weight:bold;stroke-width:0.732414"
+   id="tspan111">Scalar</tspan>(<tspan
+   style="font-weight:bold;stroke-width:0.732414"
+   id="tspan112">Number</tspan>(<tspan
+   style="fill:#ff6600;stroke-width:0.732414"
+   id="tspan151">30.5</tspan>))</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.76553px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.732414"
+         x="209.67929"
+         y="68.70887"
+         id="tspan116">    <tspan
+   style="font-weight:bold;stroke-width:0.732414"
+   id="tspan114">UnitIdentifier</tspan>(<tspan
+   style="fill:#00aa00;fill-opacity:1;stroke-width:0.732414"
+   id="tspan485">&quot;meter&quot;</tspan>, Prefix=<tspan
+   style="fill:#ff6600;stroke-width:0.732414"
+   id="tspan487">-2</tspan>,</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.76553px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.732414"
+         x="209.67929"
+         y="80.915787"
+         id="tspan7">                   type=<tspan
+   id="tspan491"
+   style="fill:#5599ff;stroke-width:0.732414">Length</tspan>)</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.76553px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.732414"
+         x="209.67929"
+         y="93.122711"
+         id="tspan120"><tspan
+   style="font-weight:bold;stroke-width:0.732414"
+   id="tspan117">DefineVariable</tspan> identifier=<tspan
+   style="fill:#00aa00;stroke-width:0.732414"
+   id="tspan118">&quot;T0&quot;</tspan>, type=<tspan
+   style="fill:#5599ff;stroke-width:0.732414"
+   id="tspan202">Time</tspan></tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.76553px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.732414"
+         x="209.67929"
+         y="105.32963"
+         id="tspan122">  <tspan
+   style="font-weight:bold;stroke-width:0.732414"
+   id="tspan121">BinaryOperator</tspan> op=Mul, type=<tspan
+   style="fill:#5599ff;stroke-width:0.732414"
+   id="tspan203">Time</tspan></tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.76553px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.732414"
+         x="209.67929"
+         y="117.53655"
+         id="tspan124">    <tspan
+   style="font-weight:bold;stroke-width:0.732414"
+   id="tspan123">BinaryOperator </tspan>op=Mul, type=<tspan
+   style="fill:#5599ff;stroke-width:0.732414"
+   id="tspan204">Scalar</tspan></tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.76553px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.732414"
+         x="209.67929"
+         y="129.74347"
+         id="tspan127">      <tspan
+   style="font-weight:bold;stroke-width:0.732414"
+   id="tspan125">Scalar</tspan>(<tspan
+   style="font-weight:bold;stroke-width:0.732414"
+   id="tspan126">Number</tspan>(<tspan
+   style="fill:#ff6600;stroke-width:0.732414"
+   id="tspan152">2.0</tspan>))</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.76553px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.732414"
+         x="209.67929"
+         y="141.95038"
+         id="tspan130">      <tspan
+   style="font-weight:bold;stroke-width:0.732414"
+   id="tspan128">Identifier</tspan>(<tspan
+   style="fill:#2ca02c;stroke-width:0.732414"
+   id="tspan129">&quot;π&quot;</tspan>, type=<tspan
+   style="fill:#5599ff;stroke-width:0.732414"
+   id="tspan206">Scalar</tspan>)</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.76553px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.732414"
+         x="209.67929"
+         y="154.1573"
+         id="tspan133">    <tspan
+   style="font-weight:bold;stroke-width:0.732414"
+   id="tspan131">FunctionCall</tspan> name=<tspan
+   style="fill:#2ca02c;stroke-width:0.732414"
+   id="tspan132">&quot;sqrt&quot;</tspan>, type=<tspan
+   id="tspan209"
+   style="fill:#5599ff;stroke-width:0.732414">Time</tspan></tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.76553px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.732414"
+         x="209.67929"
+         y="166.36421"
+         id="tspan134">      [</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.76553px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.732414"
+         x="209.67929"
+         y="178.57114"
+         id="tspan136">        <tspan
+   style="font-weight:bold;stroke-width:0.732414"
+   id="tspan135">BinaryOperator</tspan> op=Div, type=<tspan
+   style="fill:#5599ff;stroke-width:0.732414"
+   id="tspan210">Time<tspan
+   style="fill:#1a1a1a;stroke-width:0.732414"
+   id="tspan5">²</tspan></tspan></tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.76553px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.732414"
+         x="209.67929"
+         y="190.77806"
+         id="tspan139">          <tspan
+   style="font-weight:bold;stroke-width:0.732414"
+   id="tspan137">Identifier</tspan>(<tspan
+   style="fill:#2ca02c;stroke-width:0.732414"
+   id="tspan138">&quot;length&quot;</tspan>, type=<tspan
+   style="fill:#5599ff;stroke-width:0.732414"
+   id="tspan212">Length</tspan>)</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.76553px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.732414"
+         x="209.67929"
+         y="202.98497"
+         id="tspan142">          <tspan
+   style="font-weight:bold;stroke-width:0.732414"
+   id="tspan140">Identifier</tspan>(<tspan
+   style="fill:#00aa00;stroke-width:0.732414"
+   id="tspan141">&quot;g0&quot;</tspan>, type=<tspan
+   style="fill:#5599ff;stroke-width:0.732414"
+   id="tspan214">Length</tspan>/<tspan
+   style="fill:#5599ff;stroke-width:0.732414"
+   id="tspan215">Time</tspan>²)</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.76553px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.732414"
+         x="209.67929"
+         y="215.19189"
+         id="tspan143">      ]</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.76553px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.732414"
+         x="209.67929"
+         y="227.3988"
+         id="tspan145"><tspan
+   style="font-weight:bold;stroke-width:0.732414"
+   id="tspan144">ProcedureCall</tspan> kind=Print</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.76553px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.732414"
+         x="209.67929"
+         y="239.60573"
+         id="tspan146">  [</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.76553px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.732414"
+         x="209.67929"
+         y="251.81265"
+         id="tspan149">    <tspan
+   style="font-weight:bold;stroke-width:0.732414"
+   id="tspan147">Identifier</tspan>(<tspan
+   style="fill:#00aa00;stroke-width:0.732414"
+   id="tspan148">&quot;T0&quot;</tspan>, type=<tspan
+   id="tspan221"
+   style="fill:#5599ff;stroke-width:0.732414">Time</tspan>)</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.76553px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.732414"
+         x="209.67929"
+         y="264.01956"
+         id="tspan150">  ]</tspan></text>
+  </g>
+</svg>

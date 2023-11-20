@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 508 285.75"
+   version="1.1"
+   id="svg2931"
+   inkscape:version="1.3 (1:1.3+202307231459+0e150ed6c4)"
+   sodipodi:docname="ebnf-parens.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2933"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="0.75087439"
+     inkscape:cx="922.25812"
+     inkscape:cy="476.11159"
+     inkscape:window-width="2560"
+     inkscape:window-height="1417"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
+  <defs
+     id="defs2928" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:3.72447px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#333333;stroke-width:0.0931121"
+       x="41.072544"
+       y="347.31766"
+       id="text43"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="347.31766"
+         id="tspan15">statement       ::=   variable_decl | function_decl | dimension_decl | unit_decl | module_import | procedure_call | expression</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="351.99258"
+         id="tspan30" /><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="356.66751"
+         id="tspan31">variable_decl   ::=   &quot;let&quot; identifier ( &quot;:&quot; type_annotation ) ? &quot;=&quot; expression</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="361.34244"
+         id="tspan32">function_decl   ::=   &quot;fn&quot; identifier ( fn_decl_generic ) ? fn_decl_param ( &quot;-&gt;&quot; type_annotation ) ? ( &quot;=&quot; expression ) ?</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="366.01736"
+         id="tspan33">fn_decl_generic ::=   &quot;&lt;&quot; ( identifier &quot;,&quot; ) * identifier &quot;&gt;&quot;</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="370.69229"
+         id="tspan34">fn_decl_param   ::=   &quot;(&quot; ( identifier ( &quot;:&quot; type_annotation ) ? &quot;,&quot; )* ( identifier ( &quot;:&quot; type_annotation ) ) ? &quot;)&quot;</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="375.36722"
+         id="tspan35">dimension_decl  ::=   &quot;dimension&quot; identifier ( &quot;=&quot; dimension_expr ) *</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="380.04214"
+         id="tspan36">unit_decl       ::=   decorator * &quot;unit&quot; ( &quot;:&quot; dimension_expr ) ? ( &quot;=&quot; expression ) ?</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="384.71707"
+         id="tspan37">module_import   ::=   &quot;use&quot; ident ( &quot;::&quot; ident) *</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="389.392"
+         id="tspan38">procedure_call  ::=   ( &quot;print&quot; | &quot;assert&quot; | &quot;assert_eq&quot; | &quot;type&quot; ) &quot;(&quot; arguments? &quot;)&quot;</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="394.06693"
+         id="tspan39" /><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="398.74185"
+         id="tspan40">decorator       ::=   &quot;@&quot; ( &quot;metric_prefixes&quot; | &quot;binary_prefixes&quot; | ( &quot;aliases(&quot; list_of_aliases &quot;)&quot; ) )</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="403.41678"
+         id="tspan41" /><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="408.09171"
+         id="tspan42">type_annotation ::=   &quot;Bool&quot; | &quot;String&quot; | dimension_expr</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="412.76663"
+         id="tspan43">dimension_expr  ::=   dim_factor</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="417.44156"
+         id="tspan44">dim_factor      ::=   dim_power ( (multiply | divide) dim_power ) *</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="422.11649"
+         id="tspan45">dim_power       ::=   dim_primary ( power dim_exponent | unicode_exponent ) ?</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="426.79141"
+         id="tspan46">dim_exponent    ::=   integer | minus dim_exponent | &quot;(&quot; dim_exponent ( divide dim_exponent ) ? &quot;)&quot;</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="431.46634"
+         id="tspan47">dim_primary     ::=   identifier | &quot;1&quot; | &quot;(&quot; dimension_expr &quot;)&quot;</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="436.14127"
+         id="tspan48" /><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="440.81619"
+         id="tspan49">expression      ::=   postfix_apply</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="445.49112"
+         id="tspan50">postfix_apply   ::=   condition ( &quot;//&quot; identifier ) *</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="450.16605"
+         id="tspan51">condition       ::=   ( &quot;if&quot; conversion &quot;then&quot; condition &quot;else&quot; condition ) | conversion</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="454.84097"
+         id="tspan52">conversion      ::=   comparison ( ( &quot;→&quot; | &quot;-&gt;&quot; | &quot;to&quot; ) comparison ) *</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="459.5159"
+         id="tspan53">comparison      ::=   term ( (&quot;&gt;&quot; | &quot;&gt;=&quot;| &quot;≥&quot; | &quot;&lt;&quot; | &quot;&lt;=&quot; | &quot;≤&quot; | &quot;==&quot; | &quot;!=&quot; | &quot;≠&quot; ) term ) *</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="464.19083"
+         id="tspan54">term            ::=   factor ( ( &quot;+&quot; | &quot;-&quot;) factor ) *</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="468.86575"
+         id="tspan55">factor          ::=   unary ( ( &quot;*&quot; | &quot;/&quot;) per_factor ) *</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="473.54068"
+         id="tspan56">per_factor      ::=   unary ( &quot;per&quot; unary ) *</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="478.21561"
+         id="tspan57">unary           ::=   ( ( minus | plus ) unary ) | ifactor</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="482.89053"
+         id="tspan58">ifactor         ::=   power ( &quot; &quot; power ) *</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="487.56546"
+         id="tspan59">power           ::=   factorial ( &quot;^&quot; &quot;-&quot; ? power ) ?</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="492.24039"
+         id="tspan60">factorial       ::=   unicode_power &quot;!&quot; *</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="496.91531"
+         id="tspan61">unicode_power   ::=   call ( &quot;⁻&quot; ? ( &quot;¹&quot; | &quot;²&quot; | &quot;³&quot; | &quot;⁴&quot; | &quot;⁵&quot; | &quot;⁶&quot; | &quot;⁷&quot; | &quot;⁸&quot; | &quot;⁹&quot; ) ) ?</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="501.59024"
+         id="tspan62">call            ::=   primary ( &quot;(&quot; arguments? &quot;)&quot; ) ?</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="506.26517"
+         id="tspan63">arguments       ::=   expression ( &quot;,&quot; expression ) *</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="510.94009"
+         id="tspan64">primary         ::=   boolean | string | hex_number | oct_number | bin_number | number | identifier | &quot;(&quot; expression &quot;)&quot;</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="515.61499"
+         id="tspan65" /><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="520.28992"
+         id="tspan66">number          ::=   [0-9][0-9_]*(&quot;.&quot; ([0-9][0-9_]*)?)?([eE][+-]?[0-9][0-9_]*)?</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="524.96484"
+         id="tspan67">hex_number      ::=   &quot;0x&quot; [0-9a-fA-F]*</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="529.63977"
+         id="tspan68">oct_number      ::=   &quot;0o&quot; [0-7]*</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="534.3147"
+         id="tspan69">bin_number      ::=   &quot;0b&quot; [01]*</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="538.98962"
+         id="tspan70">integer         ::=   [0-9]([0-9_]*[0-9])?</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="543.66455"
+         id="tspan71">identifier      ::=   identifier_s identifier_c*</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="548.33948"
+         id="tspan72">identifier_s    ::=   Unicode_XID_Start | Unicode_Currency | &quot;%&quot; | &quot;°&quot; | &quot;_&quot;</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="553.0144"
+         id="tspan73">identifier_c    ::=   Unicode_XID_Continue | Unicode_Currency  | &quot;%&quot;</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="557.68933"
+         id="tspan74">boolean         ::=   &quot;true&quot; | &quot;false&quot;</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="562.36426"
+         id="tspan75">plus            ::=   &quot;+&quot;</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="567.03918"
+         id="tspan76">minus           ::=   &quot;-&quot;</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="571.71411"
+         id="tspan77">multiply        ::=   &quot;*&quot; | &quot;×&quot; | &quot;·&quot;</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="576.38904"
+         id="tspan78">divide          ::=   &quot;/&quot; | &quot;÷&quot;</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="581.06396"
+         id="tspan79">string          ::=   '&quot;' [^&quot;]* '&quot;'</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#333333;stroke-width:0.0931121"
+         x="41.072544"
+         y="585.73889"
+         id="tspan80" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:15.863px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke-width:0.419694"
+       x="159.52469"
+       y="174.39197"
+       id="text184"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.863px;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#1a1a1a;stroke-width:0.419694"
+         x="159.52469"
+         y="174.39197"
+         id="tspan5">S   ::=   <tspan
+   style="font-size:15.863px;fill:#13ca94;fill-opacity:1;stroke-width:0.419694"
+   id="tspan8">&quot;()&quot;</tspan></tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.863px;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#1a1a1a;stroke-width:0.419694"
+         x="159.52469"
+         y="194.52849"
+         id="tspan83">S   ::=   <tspan
+   style="fill:#13ca94;fill-opacity:1;stroke-width:0.419694"
+   id="tspan85">&quot;(&quot;</tspan> S <tspan
+   style="fill:#13ca94;fill-opacity:1;stroke-width:0.419694"
+   id="tspan86">&quot;)&quot;</tspan></tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.863px;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#1a1a1a;stroke-width:0.419694"
+         x="159.52469"
+         y="214.66499"
+         id="tspan84">S   ::=   S S</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.863px;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#1a1a1a;stroke-width:0.419694"
+         x="159.52469"
+         y="234.49374"
+         id="tspan184" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:15.863px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke-width:0.363391"
+       x="25.962019"
+       y="62.047913"
+       id="text22"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.863px;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#1a1a1a;stroke-width:0.363391"
+         x="25.962019"
+         y="62.047913"
+         id="tspan22"><tspan
+   style="font-size:15.863px;fill:#0000ff;stroke-width:0.363391"
+   id="tspan26">()</tspan>   <tspan
+   style="font-size:15.863px;fill:#b3b3b3;stroke-width:0.363391"
+   id="tspan29">())(()</tspan>   <tspan
+   style="font-size:15.863px;fill:#0000ff;stroke-width:0.363391"
+   id="tspan27">()()</tspan>   <tspan
+   style="font-size:15.863px;fill:#0000ff;stroke-width:0.363391"
+   id="tspan28">(((()))())</tspan>    <tspan
+   style="font-size:15.863px;fill:#b3b3b3;stroke-width:0.363391"
+   id="tspan81">((())    ))((</tspan></tspan></text>
+  </g>
+</svg>
