@@ -9,7 +9,7 @@ async function main() {
 
   setup_panic_hook();
 
-  const num_editors = 5;
+  const num_editors = 9;
   for (var i = 1; i <= num_editors; i++) {
     setupEditor(i);
   }
@@ -25,7 +25,7 @@ async function main() {
 main();
 
 function interpret(input, with_prelude) {
-  var numbat = Numbat.new(with_prelude, false, FormatType.Html);
+  var numbat = Numbat.new(with_prelude, false, FormatType.Html, false);
   if (with_prelude) {
     numbat.interpret("use extra::astronomy");
   }
