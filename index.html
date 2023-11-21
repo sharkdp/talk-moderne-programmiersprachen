@@ -104,12 +104,15 @@
     display: none !important
 }
 
+.custom-cursor {
+    cursor: url('data:image/svg+xml;base64,Cjxzdmcgd2lkdGg9IjM2IiBoZWlnaHQ9IjM2IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgPGNpcmNsZSBjeD0iMTgiIGN5PSIxOCIgcj0iMTgiIGZpbGw9IiNjYTNiNjMiIC8+Cjwvc3ZnPgo='), auto;
+}
 		</style>
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/github.css">
 	</head>
-	<body>
+	<body class="custom-cursor">
 		<div class="reveal">
 <div class="slides">
 
@@ -190,7 +193,7 @@ gleichungen falsch
 <section data-background-image="dist/syntax-solutions.svg" data-background-size="contain">
 </section>
 
-<section data-background-image="dist/pipeline.svg" data-background-size="contain">
+<section data-background-image="dist/pipeline.svg" data-background-size="contain" data-background-transition="fade">
 </section>
 
 <!--<section>
@@ -305,7 +308,7 @@ type(2 m/s)                      # Print the type of an expression
 <pre id="output5" class="numbat-output" style="display:none"></pre>
 </section>-->
 
-<section data-background-image="dist/pipeline-tokenizer.svg" data-background-size="contain">
+<section data-background-image="dist/pipeline-tokenizer.svg" data-background-size="contain" data-background-transition="fade">
 </section>
 <section data-background-image="dist/tokenizer.svg" data-background-size="contain">
 </section>
@@ -414,10 +417,13 @@ cot(α)</div>
 </section>
 
 
-<!--
-<section data-background-image="dist/syntax.svg" data-background-size="contain">
+<section data-background-image="dist/final.svg" data-background-size="contain">
 </section>
--->
+
+<section>
+<div id="editor9" class="code-editor"></div>
+<pre id="output9" class="numbat-output"></pre>
+</section>
 
 </div>
 		</div>

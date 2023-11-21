@@ -9,7 +9,7 @@ async function main() {
 
   setup_panic_hook();
 
-  const num_editors = 8;
+  const num_editors = 9;
   for (var i = 1; i <= num_editors; i++) {
     setupEditor(i);
   }
