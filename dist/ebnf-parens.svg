@@ -318,26 +318,26 @@
          x="159.52469"
          y="174.39197"
          id="tspan5">S   ::=   <tspan
-   style="font-size:15.863px;fill:#13ca94;fill-opacity:1;stroke-width:0.419694"
+   style="font-size:15.863px;fill:#27a85f;fill-opacity:1;stroke-width:0.419694"
    id="tspan8">&quot;()&quot;</tspan></tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.863px;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#1a1a1a;stroke-width:0.419694"
          x="159.52469"
-         y="194.52849"
+         y="194.52847"
          id="tspan83">S   ::=   <tspan
-   style="fill:#13ca94;fill-opacity:1;stroke-width:0.419694"
+   style="fill:#27a85f;fill-opacity:1;stroke-width:0.419694"
    id="tspan85">&quot;(&quot;</tspan> S <tspan
-   style="fill:#13ca94;fill-opacity:1;stroke-width:0.419694"
+   style="fill:#27a85f;fill-opacity:1;stroke-width:0.419694"
    id="tspan86">&quot;)&quot;</tspan></tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.863px;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#1a1a1a;stroke-width:0.419694"
          x="159.52469"
-         y="214.66499"
+         y="214.66498"
          id="tspan84">S   ::=   S S</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.863px;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#1a1a1a;stroke-width:0.419694"
          x="159.52469"
-         y="234.49374"
+         y="234.49373"
          id="tspan184" /></text>
     <text
        xml:space="preserve"
@@ -350,13 +350,13 @@
          x="25.962019"
          y="62.047913"
          id="tspan22"><tspan
-   style="font-size:15.863px;fill:#0000ff;stroke-width:0.363391"
+   style="font-size:15.863px;fill:#0040ff;fill-opacity:1;stroke-width:0.363391"
    id="tspan26">()</tspan>   <tspan
    style="font-size:15.863px;fill:#b3b3b3;stroke-width:0.363391"
    id="tspan29">())(()</tspan>   <tspan
-   style="font-size:15.863px;fill:#0000ff;stroke-width:0.363391"
+   style="font-size:15.863px;fill:#0040ff;fill-opacity:1;stroke-width:0.363391"
    id="tspan27">()()</tspan>   <tspan
-   style="font-size:15.863px;fill:#0000ff;stroke-width:0.363391"
+   style="font-size:15.863px;fill:#0040ff;fill-opacity:1;stroke-width:0.363391"
    id="tspan28">(((()))())</tspan>    <tspan
    style="font-size:15.863px;fill:#b3b3b3;stroke-width:0.363391"
    id="tspan81">((())    ))((</tspan></tspan></text>

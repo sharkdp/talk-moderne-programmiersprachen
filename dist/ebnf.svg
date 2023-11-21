@@ -25,8 +25,8 @@
      showgrid="false"
      units="px"
      inkscape:zoom="0.75087439"
-     inkscape:cx="959.54797"
-     inkscape:cy="538.70528"
+     inkscape:cx="968.87044"
+     inkscape:cy="609.28966"
      inkscape:window-width="2560"
      inkscape:window-height="1417"
      inkscape:window-x="1920"
@@ -342,14 +342,14 @@
    id="tspan236">statement        <tspan
    style="fill:#000000;stroke-width:0.232311"
    id="tspan1">::=</tspan></tspan>   <tspan
-   style="fill:#2da47d;fill-opacity:1;stroke-width:0.232311"
+   style="fill:#3467e0;fill-opacity:1;stroke-width:0.232311"
    id="tspan237">variable_decl</tspan> | function_decl | dimension_decl | unit_decl |</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#1a1a1a;stroke-width:0.232311"
          x="23.841024"
          y="115.88046"
          id="tspan234">                       module_import | procedure_call | <tspan
-   style="fill:#f60d6e;fill-opacity:1"
+   style="fill:#e02372;fill-opacity:1"
    id="tspan21">expression</tspan></tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#1a1a1a;stroke-width:0.232311"
@@ -362,16 +362,18 @@
          y="139.47211"
          id="tspan184"><tspan
    style="fill:#2da47d;fill-opacity:1;stroke-width:0.232311"
-   id="tspan238">variable_decl    <tspan
+   id="tspan238"><tspan
+   style="fill:#3467e0;fill-opacity:1"
+   id="tspan9">variable_decl</tspan>    <tspan
    style="fill:#000000;stroke-width:0.232311"
    id="tspan2">::=</tspan></tspan>   <tspan
-   style="fill:#2467ea;fill-opacity:1;stroke-width:0.232311"
+   style="fill:#27a85f;fill-opacity:1;stroke-width:0.232311"
    id="tspan240">&quot;let&quot;</tspan> identifier ( <tspan
-   style="fill:#2467ea;fill-opacity:1;stroke-width:0.232311"
+   style="fill:#27a85f;fill-opacity:1;stroke-width:0.232311"
    id="tspan241">&quot;:&quot;</tspan> type_annotation ) ? <tspan
-   style="fill:#2467ea;fill-opacity:1;stroke-width:0.232311"
+   style="fill:#27a85f;fill-opacity:1;stroke-width:0.232311"
    id="tspan242">&quot;=&quot;</tspan> <tspan
-   style="fill:#f60d6e;fill-opacity:1"
+   style="fill:#e02372;fill-opacity:1"
    id="tspan20">expression</tspan></tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#1a1a1a;stroke-width:0.232311"
@@ -386,50 +388,50 @@
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#1a1a1a;stroke-width:0.232311"
          x="23.841024"
-         y="174.85957"
+         y="174.85956"
          id="tspan5" /><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#1a1a1a;stroke-width:0.232311"
          x="23.841024"
-         y="186.6554"
+         y="186.65538"
          id="tspan6"><tspan
-   style="fill:#f60d6e;fill-opacity:1"
+   style="fill:#e02372;fill-opacity:1"
    id="tspan18">expression</tspan>       ::=   <tspan
    style="fill:#079da9;fill-opacity:1"
    id="tspan22">factor</tspan> ( ( <tspan
-   style="fill:#2467ea;fill-opacity:1"
+   style="fill:#27a85f;fill-opacity:1"
    id="tspan11">&quot;+&quot;</tspan> | <tspan
-   style="fill:#2467ea;fill-opacity:1"
+   style="fill:#27a85f;fill-opacity:1"
    id="tspan12">&quot;-&quot;</tspan>) <tspan
    style="fill:#079da9;fill-opacity:1"
    id="tspan23">factor</tspan> ) *</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#1a1a1a;stroke-width:0.232311"
          x="23.841024"
-         y="198.45122"
+         y="198.4512"
          id="tspan7"><tspan
    style="fill:#079da9;fill-opacity:1"
    id="tspan24">factor</tspan>           ::=   <tspan
-   style="fill:#ff6600;fill-opacity:1"
+   style="fill:#ff5200;fill-opacity:1"
    id="tspan25">primary</tspan> ( ( <tspan
-   style="fill:#2467ea;fill-opacity:1"
+   style="fill:#27a85f;fill-opacity:1"
    id="tspan13">&quot;*&quot;</tspan> | <tspan
-   style="fill:#2467ea;fill-opacity:1"
+   style="fill:#27a85f;fill-opacity:1"
    id="tspan14">&quot;/&quot;</tspan> ) <tspan
-   style="fill:#ff6600;fill-opacity:1"
+   style="fill:#ff5200;fill-opacity:1"
    id="tspan26">primary</tspan> ) *</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#1a1a1a;stroke-width:0.232311"
          x="23.841024"
-         y="210.24704"
+         y="210.24702"
          id="tspan10"><tspan
-   style="fill:#ff6600;fill-opacity:1"
+   style="fill:#ff5200;fill-opacity:1"
    id="tspan27">primary</tspan>          ::=   number | identifier | <tspan
-   style="fill:#2467ea;fill-opacity:1"
+   style="fill:#27a85f;fill-opacity:1"
    id="tspan16">&quot;(&quot;</tspan> <tspan
    style="fill:#f60d6e;fill-opacity:1"
    id="tspan19">expression</tspan> <tspan
-   style="fill:#2467ea;fill-opacity:1"
+   style="fill:#27a85f;fill-opacity:1"
    id="tspan17">&quot;)&quot;</tspan></tspan></text>
   </g>
 </svg>

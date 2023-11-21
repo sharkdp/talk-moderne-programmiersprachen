@@ -25,8 +25,8 @@
      showgrid="false"
      units="px"
      inkscape:zoom="0.53094837"
-     inkscape:cx="1057.5416"
-     inkscape:cy="605.52027"
+     inkscape:cx="498.1652"
+     inkscape:cy="607.40369"
      inkscape:window-width="2560"
      inkscape:window-height="1417"
      inkscape:window-x="1920"
@@ -81,7 +81,7 @@
          x="76.850883"
          y="89.702805"
          id="tspan48"><tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#d300d3;fill-opacity:1"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#c802ff;fill-opacity:1"
    id="tspan60">type</tspan>(a + b) =</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.1767px;line-height:1.25;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#1a1a1a;fill-opacity:1;stroke-width:1.11271"
@@ -90,16 +90,16 @@
          id="tspan55">  <tspan
    style="font-weight:bold"
    id="tspan1">if</tspan> <tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#d300d3;fill-opacity:1"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#c802ff;fill-opacity:1"
    id="tspan61">type</tspan>(a) == <tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#d300d3;fill-opacity:1"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#c802ff;fill-opacity:1"
    id="tspan62">type</tspan>(b) {</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.1767px;line-height:1.25;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#1a1a1a;fill-opacity:1;stroke-width:1.11271"
          x="76.850883"
          y="138.5878"
          id="tspan56">    <tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#d300d3;fill-opacity:1"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#c802ff;fill-opacity:1"
    id="tspan63">type</tspan>(a)</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.1767px;line-height:1.25;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#1a1a1a;fill-opacity:1;stroke-width:1.11271"
@@ -113,7 +113,7 @@
          x="76.850883"
          y="187.47279"
          id="tspan58">    error(<tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#1fbc88;fill-opacity:1"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#27a85f;fill-opacity:1"
    id="tspan66">&quot;incompatible types&quot;</tspan>)</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.1767px;line-height:1.25;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';fill:#1a1a1a;fill-opacity:1;stroke-width:1.11271"

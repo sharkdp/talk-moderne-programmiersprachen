@@ -26,7 +26,7 @@
      units="px"
      inkscape:zoom="0.75087439"
      inkscape:cx="1044.7819"
-     inkscape:cy="564.00912"
+     inkscape:cy="482.77049"
      inkscape:window-width="2560"
      inkscape:window-height="1417"
      inkscape:window-x="1920"
@@ -72,42 +72,54 @@
      id="layer1">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.1767px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';letter-spacing:0px;word-spacing:0px;fill:#ff7f2a;fill-opacity:1;stroke-width:1.11271"
-       x="150.8248"
-       y="97.67646"
-       id="text31-5"><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.1767px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#ff7f2a;fill-opacity:1;stroke-width:1.11271"
-         x="150.8248"
-         y="97.67646"
-         id="tspan13">2 <tspan
-   style="fill:#000000"
-   id="tspan7">meter</tspan> <tspan
-   style="font-weight:bold;fill:#000000;fill-opacity:1"
-   id="tspan1">+</tspan> 3 <tspan
-   style="fill:#1a1a1a"
-   id="tspan9">inches</tspan></tspan></text>
-    <text
-       xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-7.9573536,-80.970308)"
        id="text20"
        style="font-size:40px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect20);display:inline" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.1767px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';letter-spacing:0px;word-spacing:0px;fill:#ff7f2a;fill-opacity:1;stroke-width:1.11271"
-       x="150.84398"
-       y="224.28535"
-       id="text14"><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.1767px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#ff7f2a;fill-opacity:1;stroke-width:1.11271"
+    <g
+       id="g5"
+       transform="translate(0,-10.804379)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.1767px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';letter-spacing:0px;word-spacing:0px;fill:#ff7f2a;fill-opacity:1;stroke-width:1.11271"
+         x="150.8248"
+         y="97.67646"
+         id="text31-5"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.1767px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#ff7f2a;fill-opacity:1;stroke-width:1.11271"
+           x="150.8248"
+           y="97.67646"
+           id="tspan13"><tspan
+   style="fill:#0040ff;fill-opacity:1"
+   id="tspan2">2</tspan> <tspan
+   style="fill:#000000"
+   id="tspan7">meter</tspan> <tspan
+   style="font-weight:bold;fill:#000000;fill-opacity:1"
+   id="tspan1">+</tspan> <tspan
+   style="fill:#0040ff;fill-opacity:1"
+   id="tspan3">3</tspan> <tspan
+   style="fill:#1a1a1a"
+   id="tspan9">inches</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.1767px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';letter-spacing:0px;word-spacing:0px;fill:#ff7f2a;fill-opacity:1;stroke-width:1.11271"
          x="150.84398"
          y="224.28535"
-         id="tspan14">2 <tspan
+         id="text14"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.1767px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#ff7f2a;fill-opacity:1;stroke-width:1.11271"
+           x="150.84398"
+           y="224.28535"
+           id="tspan14"><tspan
+   style="fill:#0040ff;fill-opacity:1"
+   id="tspan5">2</tspan> <tspan
    style="fill:#000000"
    id="tspan10">meter</tspan> <tspan
    style="font-weight:bold;fill:#000000;fill-opacity:1"
-   id="tspan11">+</tspan> 3 <tspan
+   id="tspan11">+</tspan> <tspan
+   style="fill:#0040ff;fill-opacity:1"
+   id="tspan4">3</tspan> <tspan
    style="fill:#1a1a1a"
    id="tspan15">second</tspan></tspan></text>
+    </g>
   </g>
 </svg>

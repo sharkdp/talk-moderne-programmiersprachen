@@ -25,12 +25,12 @@
      showgrid="false"
      units="px"
      inkscape:zoom="0.53094837"
-     inkscape:cx="1059.425"
-     inkscape:cy="603.63685"
-     inkscape:window-width="2560"
-     inkscape:window-height="1395"
-     inkscape:window-x="1920"
-     inkscape:window-y="22"
+     inkscape:cx="907.80955"
+     inkscape:cy="605.52027"
+     inkscape:window-width="1279"
+     inkscape:window-height="1417"
+     inkscape:window-x="3200"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      inkscape:showpageshadow="2"
@@ -81,22 +81,22 @@
          x="76.088608"
          y="136.91104"
          id="tspan47"><tspan
-   style="fill:#d300d3;fill-opacity:1"
+   style="fill:#c802ff;fill-opacity:1"
    id="tspan49">type</tspan>(a * b) = <tspan
-   style="fill:#d300d3;fill-opacity:1"
+   style="fill:#c802ff;fill-opacity:1"
    id="tspan51">type</tspan>(a) * <tspan
-   style="fill:#d300d3;fill-opacity:1"
+   style="fill:#c802ff;fill-opacity:1"
    id="tspan53">type</tspan>(b)</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.1767px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#1a1a1a;fill-opacity:1;stroke-width:1.11271"
          x="76.088608"
-         y="160.88193"
+         y="160.88191"
          id="tspan48"><tspan
-   style="fill:#d300d3;fill-opacity:1"
+   style="fill:#c802ff;fill-opacity:1"
    id="tspan50">type</tspan>(a / b) = <tspan
-   style="fill:#d300d3;fill-opacity:1"
+   style="fill:#c802ff;fill-opacity:1"
    id="tspan52">type</tspan>(a) / <tspan
-   style="fill:#d300d3;fill-opacity:1"
+   style="fill:#c802ff;fill-opacity:1"
    id="tspan54">type</tspan>(b)</tspan></text>
   </g>
 </svg>
