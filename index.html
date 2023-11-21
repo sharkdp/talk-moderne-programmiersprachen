@@ -360,23 +360,23 @@ type(2 m/s)                      # Print the type of an expression
 </section>
 
 <section>
-<div id="editor6" class="code-editor"># Tokenizer errors
+<div id="editor5" class="code-editor"># Tokenizer errors
 
 0xffffff</div>
-<pre id="output6" class="numbat-output"></pre>
+<pre id="output5" class="numbat-output"></pre>
 <!--
 0xCOFFEE
 -->
 </section>
 
 <section>
-<div id="editor7" class="code-editor"># Parsing errors
+<div id="editor6" class="code-editor"># Parsing errors
 
 let radius = 10 cm
 let volume = sphere_volume(radius)
 
 print("Balloon volume: {volume -> L}")</div>
-<pre id="output7" class="numbat-output"></pre>
+<pre id="output6" class="numbat-output"></pre>
 <!--
 - remove let keyword
 - remove closing parens
@@ -384,13 +384,13 @@ print("Balloon volume: {volume -> L}")</div>
 </section>
 
 <section>
-<div id="editor8" class="code-editor"># Semantic analysis
+<div id="editor7" class="code-editor"># Semantic analysis
 
 let length: Length = 30 cm
 let t_oscillation: Time = 2 π sqrt(length / g0)
 
 t_oscillation</div>
-<pre id="output8" class="numbat-output"></pre>
+<pre id="output7" class="numbat-output"></pre>
 <!--
 - misspell 'Lengt'
 - misspell 'length'
@@ -400,14 +400,14 @@ t_oscillation</div>
 </section>
 
 <section>
-<div id="editor9" class="code-editor"># Runtime errors (in VM)
+<div id="editor8" class="code-editor"># Runtime errors (in VM)
 #
 # fn cot(x: Angle) -> Scalar = cos(x) / sin(x)
 
 let α = 30 deg
 
 cot(α)</div>
-<pre id="output9" class="numbat-output"></pre>
+<pre id="output8" class="numbat-output"></pre>
 <!--
 0 deg
 -->

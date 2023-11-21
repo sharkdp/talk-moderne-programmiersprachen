@@ -9,7 +9,7 @@ async function main() {
 
   setup_panic_hook();
 
-  const num_editors = 9;
+  const num_editors = 8;
   for (var i = 1; i <= num_editors; i++) {
     setupEditor(i);
   }
@@ -162,9 +162,9 @@ function setupEditor(id) {
   editor.renderer.setPadding(10);
 
   // Move cursor to the end of the input
-  const count = editor.session.getLength();
-  const lastLine = editor.session.getLine(count - 1);
-  editor.session.selection.moveCursorTo(count - 1, lastLine.length);
+  //const count = editor.session.getLength();
+  //const lastLine = editor.session.getLine(count - 1);
+  //editor.session.selection.moveCursorTo(count - 1, lastLine.length);
 
   function evaluate() {
     numbatEvaluate(id);
