@@ -24,10 +24,10 @@
      inkscape:document-units="px"
      showgrid="false"
      units="px"
-     inkscape:zoom="0.53094837"
-     inkscape:cx="945.47799"
-     inkscape:cy="1098.9769"
-     inkscape:window-width="853"
+     inkscape:zoom="0.75087439"
+     inkscape:cx="911.60388"
+     inkscape:cy="381.55516"
+     inkscape:window-width="2560"
      inkscape:window-height="1417"
      inkscape:window-x="1920"
      inkscape:window-y="0"
@@ -43,25 +43,14 @@
      id="layer1">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.7725px;line-height:0%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';text-align:center;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1.48103"
-       x="253.99995"
-       y="143.39049"
-       id="text3614-9"><tspan
-         sodipodi:role="line"
-         id="tspan3616-1"
-         x="253.99995"
-         y="143.39049"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:59.2411px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';text-align:center;text-anchor:middle;fill:#333333;stroke-width:1.48103">Σ</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:14.9071px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;stroke-width:0.372677"
+       style="font-size:14.9071px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.372677"
        x="151.98352"
-       y="184.34462"
+       y="147.93224"
        id="text1"><tspan
          sodipodi:role="line"
          id="tspan1"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#0000ff;stroke-width:0.372677"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#000000;fill-opacity:1;stroke-width:0.372677"
          x="151.98352"
-         y="184.34462">- 1 2 3 4 5 6 7 8 9 0 .</tspan></text>
+         y="147.93224">- 1 2 3 4 5 6 7 8 9 0 .</tspan></text>
   </g>
 </svg>

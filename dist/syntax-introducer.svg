@@ -24,10 +24,10 @@
      inkscape:document-units="px"
      showgrid="false"
      units="px"
-     inkscape:zoom="0.75087439"
-     inkscape:cx="994.17428"
-     inkscape:cy="476.11159"
-     inkscape:window-width="1651"
+     inkscape:zoom="1.0618967"
+     inkscape:cx="1015.6355"
+     inkscape:cy="501.46118"
+     inkscape:window-width="2560"
      inkscape:window-height="1417"
      inkscape:window-x="1920"
      inkscape:window-y="0"
@@ -50,9 +50,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.292968"
          x="156.61491"
          y="117.32372"><tspan
-   style="fill:#800080"
+   style="fill:#ca3b63;fill-opacity:1"
    id="tspan31">bool</tspan> isPositive(<tspan
-   style="fill:#800080"
+   style="fill:#ca3b63;fill-opacity:1"
    id="tspan32">int</tspan> number);</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.292968"
@@ -74,7 +74,7 @@
          x="156.61491"
          y="176.16061"
          id="tspan36"><tspan
-   style="fill:#800080"
+   style="fill:#ca3b63;fill-opacity:1"
    id="tspan37">Timeout</tspan> timeout(<tspan
-   style="fill:#800080"
+   style="fill:#ca3b63;fill-opacity:1"
    id="tspan38">Clock</tspan>());</tspan></text></g></svg>

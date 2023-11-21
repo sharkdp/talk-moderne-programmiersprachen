@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Moderne Programmiersprachen</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
@@ -167,8 +167,8 @@ lohnt sich, beispiel genauer anzuschauen… kommt noch ein paar mal
 <div id="editor4" class="code-editor">let distance_sun = 1 AU  # astronomical unit
 let distance_moon = 384_400 km
 
-let force_sun = G * earth_mass * solar_mass / distance_sun
-let force_moon = G * earth_mass * lunar_mass / distance_moon
+let force_sun = G × earth_mass × solar_mass / distance_sun
+let force_moon = G × earth_mass × lunar_mass / distance_moon
 
 force_sun / force_moon</div>
 <pre id="output4" class="numbat-output"></pre>
@@ -195,118 +195,6 @@ gleichungen falsch
 
 <section data-background-image="dist/pipeline.svg" data-background-size="contain" data-background-transition="fade">
 </section>
-
-<!--<section>
-<div id="editor5" class="code-editor"># This is a line comment. It can span over
-# multiple lines
-
-# 1. Imports
-
-use prelude        # This is not necessary. The 'prelude'
-                   # module will always be loaded upon startup
-
-use units::stoney  # Load a specific module
-
-# 2. Numbers
-
-12345       # integer notation
-12_345      # optional decimal separators
-
-0.234       # floating point notation
-.234        # without the leading zero
-
-1.234e15    # scientific notation
-1.234e+15
-1e-9
-1.0e-9
-
-0x2A        # hexadecimal
-0o52        # octal
-0b101010    # binary
-
-# 3. Simple expressions
-
-3 + (4 - 3)       # Addition and subtraction
-
-1920 / 16 * 9     # Multiplication, division
-1920 &divide; 16 &times; 9     # Unicode-style, '&middot;' is also multiplication
-2 pi              # Whitespace is implicit multiplication
-meter per second  # 'per' keyword can be used for division
-
-2^3               # Exponentiation
-2**3              # Python-style
-2&sup3;                # Unicode exponents
-2^-3              # Negative exponents
-
-mod(17, 4)        # Modulo
-
-3 in -&gt; cm        # Unit conversion, can also be &rarr; or ➞
-3 in to cm        # Unit conversion with the 'to' keyword
-
-cos(pi/3 + pi)    # Call mathematical functions
-pi/3 + pi // cos  # Same, 'arg // f' is equivalent to 'f(arg)'
-                  # The '//' operator has the lowest precedence
-                  # which makes it very useful for interactive
-                  # terminals (press up-arrow, and add '// f')
-
-# 4. Constants
-
-let n = 4                          # Simple numerical constant
-let q1 = 2 m/s                     # Right hand side can be any expression
-let q2: Velocity = 2 m/s           # With optional type annotation
-let q3: Length / Time = 2 m/s      # more complex type annotation
-
-# 5. Function definitions
-
-fn foo(z: Scalar) -&gt; Scalar = 2 * z + 3                   # A simple function
-fn speed(len: Length, dur: Time) -&gt; Velocity = len / dur  # Two parameters
-fn my_sqrt&lt;T&gt;(q: T^2) -&gt; T = q^(1/2)                      # A generic function
-fn is_non_negative(x: Scalar) -&gt; Bool = x &ge; 0             # Returns a bool
-
-# 6. Dimension definitions
-
-dimension Fame                            # A new base dimension
-dimension Deceleration = Length / Time^2  # A new derived dimension
-
-# 7. Unit definitions
-
-@aliases(quorks)                 # Optional aliases-decorator
-unit quork = 0.35 meter          # A new derived unit
-
-@metric_prefixes                 # Optional decorator to allow 'milliclonk', etc.
-@aliases(ck: short)              # short aliases can be used with short prefixes (mck)
-unit clonk: Time = 0.2 seconds   # Optional type annotation
-
-@metric_prefixes
-@aliases(wh: short)
-unit warhol: Fame                # New base unit for the &quot;Fame&quot; dimension
-
-unit thing                       # New base unit with automatically generated
-                                 # base dimension &quot;Thing&quot;
-
-# 8. Conditionals
-
-fn step(x: Scalar) -&gt; Scalar =   # The construct 'if &lt;cond&gt; then &lt;expr&gt; else &lt;expr&gt;'
-  if x &lt; 0                       # is an expression, not a statement. It can span
-    then 0                       # multiple lines.
-    else 1
-
-# 9. Procedures
-
-print(2 kilowarhol)              # Print the value of an expression
-print(&quot;hello world&quot;)             # Print a message
-print(&quot;value of pi = {pi}&quot;)      # String interpolation
-print(&quot;sqrt(10) = {sqrt(10)}&quot;)   # Expressions in string interpolation
-
-assert(1 yard &lt; 1 meter)         # Assertion
-
-assert_eq(1 ft, 12 in)           # Assert that two quantities are equal
-assert_eq(1 yd, 1 m, 10 cm)      # Assert that two quantities are equal, up to
-                                 # the given precision
-type(2 m/s)                      # Print the type of an expression
-</div>
-<pre id="output5" class="numbat-output" style="display:none"></pre>
-</section>-->
 
 <section data-background-image="dist/pipeline-tokenizer.svg" data-background-size="contain" data-background-transition="fade">
 </section>
