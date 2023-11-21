@@ -28,9 +28,9 @@
      inkscape:cx="1006.1603"
      inkscape:cy="398.86831"
      inkscape:window-width="2560"
-     inkscape:window-height="1395"
+     inkscape:window-height="1417"
      inkscape:window-x="1920"
-     inkscape:window-y="22"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      inkscape:showpageshadow="2"
@@ -58,22 +58,6 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <rect
-       style="fill:#f9ffcb;fill-opacity:1;stroke-width:1.15147;stroke-linecap:square;stroke-linejoin:bevel"
-       id="rect21"
-       width="192.67026"
-       height="58.93782"
-       x="287.29129"
-       y="24.245834"
-       ry="8.2330065" />
-    <rect
-       style="fill:#f9ffcb;fill-opacity:1;stroke-width:1.15147;stroke-linecap:square;stroke-linejoin:bevel"
-       id="rect20"
-       width="150.52174"
-       height="31.372786"
-       x="30.1791"
-       y="137.02591"
-       ry="3.4743812" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:46.0633px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Ultra-Bold';letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke:none;stroke-width:1.15158;stroke-opacity:1"

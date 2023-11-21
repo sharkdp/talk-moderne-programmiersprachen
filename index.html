@@ -139,6 +139,7 @@ let amount = 13.2 g / coffee
 
 4 persons × 2 coffee per person × amount / weight
 -->
+
 <section>
 <div id="editor2" class="code-editor">3 months + 2 years</div>
 <pre id="output2" class="numbat-output"></pre>
@@ -168,6 +169,10 @@ let force_moon = G * earth_mass * lunar_mass / distance_moon
 
 force_sun / force_moon</div>
 <pre id="output4" class="numbat-output"></pre>
+<!--
+gleichungen falsch
+: Force annotation hinzufügen
+-->
 </section>
 
 <section data-background-image="dist/warum.svg" data-background-size="contain">
@@ -176,10 +181,19 @@ force_sun / force_moon</div>
 <section data-background-image="dist/design-space.svg" data-background-size="contain">
 </section>
 
+<section data-background-image="dist/syntax-semicolon.svg" data-background-size="contain">
+</section>
+<section data-background-image="dist/syntax-scopes.svg" data-background-size="contain">
+</section>
+<section data-background-image="dist/syntax-introducer.svg" data-background-size="contain">
+</section>
+<section data-background-image="dist/syntax-solutions.svg" data-background-size="contain">
+</section>
+
 <section data-background-image="dist/pipeline.svg" data-background-size="contain">
 </section>
 
-<section>
+<!--<section>
 <div id="editor5" class="code-editor"># This is a line comment. It can span over
 # multiple lines
 
@@ -289,7 +303,7 @@ assert_eq(1 yd, 1 m, 10 cm)      # Assert that two quantities are equal, up to
 type(2 m/s)                      # Print the type of an expression
 </div>
 <pre id="output5" class="numbat-output" style="display:none"></pre>
-</section>
+</section>-->
 
 <section data-background-image="dist/pipeline-tokenizer.svg" data-background-size="contain">
 </section>
@@ -309,16 +323,20 @@ type(2 m/s)                      # Print the type of an expression
 
 <section data-background-image="dist/pipeline-parser.svg" data-background-size="contain">
 </section>
+<section data-background-image="dist/parser.svg" data-background-size="contain">
+</section>
 <section data-background-image="dist/languages.svg" data-background-size="contain">
 </section>
 <section data-background-image="dist/ebnf-parens.svg" data-background-size="contain">
 </section>
 <section data-background-image="dist/ebnf.svg" data-background-size="contain">
 </section>
-<section data-background-image="dist/parser.svg" data-background-size="contain">
-</section>
 
 <section data-background-image="dist/pipeline-typechecker.svg" data-background-size="contain">
+</section>
+<section data-background-image="dist/typechecker.svg" data-background-size="contain">
+</section>
+<section data-background-image="dist/types.svg" data-background-size="contain">
 </section>
 <section data-background-image="dist/typechecker-multiply.svg" data-background-size="contain">
 </section>
@@ -327,8 +345,6 @@ type(2 m/s)                      # Print the type of an expression
 <section data-background-image="dist/typechecker-add.svg" data-background-size="contain">
 </section>
 <section data-background-image="dist/typechecker-add2.svg" data-background-size="contain">
-</section>
-<section data-background-image="dist/typechecker.svg" data-background-size="contain">
 </section>
 
 <section data-background-image="dist/pipeline-codegen.svg" data-background-size="contain">
@@ -424,8 +440,8 @@ cot(α)</div>
                 center: false,
 				controls: false,
 				controlsTutorial: false,
-				transition: 'slide',
-                backgroundTransition: 'slide',
+				transition: 'convex',
+                backgroundTransition: 'convex',
 
 
 				// Learn about plugins: https://revealjs.com/plugins/
